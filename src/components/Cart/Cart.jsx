@@ -18,7 +18,7 @@ const Cart = ({cart, handleRemoveFromCart}) => {
 
 Cart.propTypes = {
     cart: PropTypes.array.isRequired
-    handleRemoveFromCart: PropTypes.func.isRequired
+    // handleRemoveFromCart: PropTypes.func.isRequired
 }
 
 export default Cart;
